@@ -83,13 +83,13 @@ verify_configs_integrity()
 
 # --- TELEGRAM API & BOT CONFIGURATION (DUMMY EXAMPLES FOR GUIDANCE) ---
 # Replace these dummy samples with your actual credentials from https://my.telegram.org & @BotFather
-API_ID = int(os.environ.get("API_ID", 12345678))  # Example: 12345678 (Integer ID from my.telegram.org)
-API_HASH = os.environ.get("API_HASH", "0123456789abcdef0123456789abcdef")  # Example: 32-character string hash
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz1234567")  # Example: BotFather token
+API_ID = int(os.environ.get("API_ID", 26208927))  # Example: 12345678 (Integer ID from my.telegram.org)
+API_HASH = os.environ.get("API_HASH", "ab6e672ad871f0dbe7dddb4f8b540cf8")  # Example: 32-character string hash
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8640891272:AAGiZw3LUaR26JzwGZvfu-zGdEN02hQNMGw")  # Example: BotFather token
 
 # --- DATABASE CONFIGURATION ---
 # Example: mongodb+srv://username:password@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://dummy_user:dummy_password@cluster0.dummy.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://demosrc:demosrc@demosrc.f5delhg.mongodb.net/?appName=DEMOSRC")
 
 # --- SYSTEM DIRECTORIES & LOGGING ---
 WORK_DIR = "./downloads"
